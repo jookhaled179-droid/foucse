@@ -1,0 +1,122 @@
+{
+  "settings": {
+    "storeName": "FOUCSE",
+    "shipping": 90,
+    "currency": "EGP",
+    "whatsapp": "01153156077"
+  },
+  "products": [
+    {
+      "id": "p1",
+      "name": "FOUCSE Heavyweight Hoodie",
+      "category": "hoodies",
+      "price": 2400,
+      "rating": 5,
+      "stock": 70,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "image": "",
+      "active": true
+    },
+    {
+      "id": "p2",
+      "name": "Essential Matte Black Tee",
+      "category": "basics",
+      "price": 1100,
+      "rating": 4.8,
+      "stock": 35,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "image": "",
+      "active": true
+    },
+    {
+      "id": "p3",
+      "name": "FOUCSE Dark Denim Jeans",
+      "category": "jeans",
+      "price": 2600,
+      "rating": 4.9,
+      "stock": 15,
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "image": "",
+      "active": true
+    },
+    {
+      "id": "p4",
+      "name": "Oversized Wide Leg Trousers",
+      "category": "wide-leg",
+      "price": 2200,
+      "rating": 4.7,
+      "stock": 17,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "image": "",
+      "active": true
+    },
+    {
+      "id": "p5",
+      "name": "FOUCSE Stealth Sneakers",
+      "category": "shoes",
+      "price": 3500,
+      "rating": 5,
+      "stock": 12,
+      "sizes": [
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
+      "image": "",
+      "active": true
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-MVIJLN0S",
+      "createdAt": "2026-10-21T20:06:16.012Z",
+      "status": "delivered",
+      "customerName": "Youssef Khaled",
+      "phone": "01153156077",
+      "governorate": "Giza",
+      "address": "21 elnour street - fisal",
+      "notes": "fast",
+      "items": [
+        {
+          "productId": "p4",
+          "name": "Oversized Wide Leg Trousers",
+          "price": 2200,
+          "size": "XL",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2200,
+      "shipping": 90,
+      "total": 2290
+    }
+  ],
+  "admin": {
+    "username": "youssef",
+    "password": "youssef1234"
+  }
+}
